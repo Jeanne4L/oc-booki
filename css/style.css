@@ -3,43 +3,43 @@
 /*---------------------------------------- */
 
 /* DESKTOP */
-    /* L59  polices */
-    /* L84  general */
-    /* L136  header */
-    /* L176  container */
-        /* L194  form */
-        /* L245  filters */
-        /* L284 info */
-    /* L305  accomodations */
-        /* L313  card */
-        /* L352  accomodations article */
-        /* L395  popular */
-    /* L448 activities */
-        /* L487 card xl */
-        /* L515 column */
-    /* L562 footer */
+    /* L58  polices */
+    /* L64  general */
+    /* L116  header */
+    /* L156  container */
+        /* L174  form */
+        /* L225  filters */
+        /* L264 info */
+    /* L283  accomodations */
+        /* L292  card */
+        /* L331  accomodations article */
+        /* L374  popular */
+    /* L427 activities */
+        /* L465 card xl */
+        /* L493 column */
+    /* L541 footer */
 
-/* L580  MEDIA QUERIES TABLETTE*/
-    /* L609 header */
-        /* L649  form */
-        /* L668 filters */
-    /* L685  accomodations */
-        /* L701  popular */
-        /* L737  accomodations article */    
-    /* L781 activities */
-        /* L799  card xl */
-        /* L824  column */
-    /* L872 footer*/
+/* L563  MEDIA QUERIES TABLETTE*/
+    /* L587 header */
+        /* L627  form */
+        /* L646 filters */
+    /* L663  accomodations */
+        /* L679  popular */
+        /* L715  accomodations article */    
+    /* L759 activities */
+        /* L777  card xl */
+        /* L802  column */
+    /* L850 footer*/
 
-/* L882  MEDIA QUERIES TRANSITION MOBILE */
-        /* L995  form */
-    /* L907  accomodations */
-        /* L936  popular */
+/* L864  MEDIA QUERIES TRANSITION MOBILE */
+        /* L873  form */
+    /* L885  accomodations */
+        /* L914  popular */
         
-/* L958  MEDIA QUERIES MOBILE */
-        /* L936  form */
-    /* L976 activities */
-    /* L1055 footer */
+/* L936  MEDIA QUERIES MOBILE */
+        /* L941  form */
+    /* L954 activities */
+    /* L1033 footer */
 
 
 /* ---------------------------------------- */
@@ -58,29 +58,7 @@ Sky blue (icons) :      #DEEBFF
 /* ==            POLICES              */
 /*---------------------------------------- */
 
-@font-face {
-    font-family: 'ralewaymedium';
-    src: url('../police/medium/raleway-medium-webfont.eot');
-    src: url('../police/medium/raleway-medium-webfont.eot?#iefix') format('embedded-opentype'),
-         url('../police/medium/raleway-medium-webfont.woff2') format('woff2'),
-         url('../police/medium/raleway-medium-webfont.woff') format('woff'),
-         url('../police/medium/raleway-medium-webfont.ttf') format('truetype'),
-         url('../police/medium/raleway-medium-webfont.svg#ralewaymedium') format('svg');
-    font-weight: normal;
-    font-style: normal;
-}
-
-@font-face {
-    font-family: 'ralewayextrabold';
-    src: url('../police/extra-bold/raleway-extrabold-webfont.eot');
-    src: url('../police/extra-bold/raleway-extrabold-webfont.eot?#iefix') format('embedded-opentype'),
-         url('../police/extra-bold/raleway-extrabold-webfont.woff2') format('woff2'),
-         url('../police/extra-bold/raleway-extrabold-webfont.woff') format('woff'),
-         url('../police/extra-bold/raleway-extrabold-webfont.ttf') format('truetype'),
-         url('../police/extra-bold/raleway-extrabold-webfont.svg#ralewayextrabold') format('svg');
-    font-weight: normal;
-    font-style: normal;
-}
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@400;800&display=swap');
 
 /* ---------------------------------------- */
 /* ==            GENERAL              */
@@ -89,11 +67,11 @@ Sky blue (icons) :      #DEEBFF
 
 * {
     box-sizing: border-box;
-    font-family: 'ralewaymedium';
+    font-family: 'Raleway', sans-serif;
 }
 
 h2, h3, h4, span, input, ::placeholder, button, .filters__btn p {
-    font-family: 'ralewayextrabold';
+    font-weight: bold;
 }
 
 body {
@@ -883,7 +861,7 @@ footer li {
 /*---------------------------------------- */
 
 /* ---------------------------------------- */
-/* ==            MOBILE             */
+/* ==            TRANSITION TABLETTE - MOBILE             */
 /*---------------------------------------- */
 
 @media (max-width: 768px) {
